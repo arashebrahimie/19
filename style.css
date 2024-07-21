@@ -1,0 +1,11 @@
+p:hover::before {
+    content: '<';
+}
+
+p:hover::after {
+    content: '>';
+}
+
+p {
+    text-align: center;
+}
